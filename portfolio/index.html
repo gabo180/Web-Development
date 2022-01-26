@@ -5,64 +5,77 @@
     Most recent revision: 01/25/2022
 -->
 <html lang="en">
-    <head>
-        <title>Gabriel's Portfolio</title>
-        <link rel="stylesheet" href="styles/main.css">
-        <style>
-            caption {
-                font-weight: bold;
-                font-size: 1.2em;
-                margin-bottom: 8px;
-            }
-            table, th, td {
-               border: 1px solid #0d1f2d;
-               border-collapse: collapse;
-               padding: 5px 10px;
-            }
-            table {
-                width: 90%;
-                margin: auto;
-            }
-            tr {
-                height: 30px;
-            }
-            th {
-                background-color: #546a7b;
-                color: #f2eded;
-            }
-            tr:nth-child(odd) {
-                background-color: #e4c3ad;
-            }
-        </style>
-    </head>
 
-    <body>
-        <header>
-            <h1>Portfolio for Gabriel Hernandez</h1>
-        </header>
-        <nav class="border"> <!-- The nav element will include navigation buttons or links -->
-            <p><a href="projects.html">Projects</a></p>
-            <p><a href="contact.html">Contact Me</a></p>
-            <p><a href="testimonials.html">Testimonials</a></p>
-        </nav>
-        <section>
-            <article class="border" id="about-me">
-                <h2><em>About Me</em></h2>
-                <img src="images/me.png" alt="Portrait of Gabriel Hernandez" style="width: 220px; height: 250px;">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. <strong>Porttitor eget dolor morbi non arcu risus.</strong> 
-                    Sit amet dictum sit amet justo donec <strong>enim diam vulputate.</strong>
-                </p>
-                <p>
-                    Egestas sed sed risus pretium. 
-                    Risus ultricies tristique nulla aliquet. Natoque penatibus et magnis dis parturient.
-                </p>
-            </article>
-            <article id="past-experiences">
-                <h2><em>Past Experiences</em></h2>
+<head>
+    <title>Gabriel's Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        th {
+            background-color: #546a7b;
+            color: #f2eded;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #e4c3ad;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio for Gabriel Hernandez</h1>
+    </header>
+    <nav class="border">
+        <!-- The nav element will include navigation buttons or links -->
+        <p><a href="projects.html">Projects</a></p>
+        <p><a href="contact.html">Contact Me</a></p>
+        <p><a href="testimonials.html">Testimonials</a></p>
+        <div class="clear-float"></div>
+    </nav>
+    <section>
+        <article class="border" id="about-me">
+            <h2><em>About Me</em></h2>
+            <img src="images/me.png" alt="Portrait of Gabriel Hernandez"
+                style="width: 220px; height: 250px; float: left;">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. <strong>Porttitor eget dolor morbi non arcu risus.</strong>
+                Sit amet dictum sit amet justo donec <strong>enim diam vulputate.</strong>
+            </p>
+            <p>
+                Egestas sed sed risus pretium.
+                Risus ultricies tristique nulla aliquet. Natoque penatibus et magnis dis parturient.
+            </p>
+            <div class="clear-float"></div>
+        </article>
+        <article id="past-experiences">
+            <h2><em>Past Experiences</em></h2>
+            <img src="images/rubick.jpg" alt="Image of a Rubick Cube" style="width: 220px; height: 250px;">
+            <div class="right-content">
                 <table border>
-                <a href="images/rubick.jpg"><img src="images/rubick.jpg" alt="Image of a Rubick Cube" style="width: 220px; height: 250px;"></a>
                     <caption>Employment History</caption>
                     <thead>
                         <tr bgcolor="#5D6D7E">
@@ -89,10 +102,13 @@
                         </tr>
                     </tbody>
                 </table>
-            </article>
-            <article id="hobbies">
-                <h2><em>Hobbies</em></h2>
-                <img src="images/rubick.jpg" alt="Image of a Rubick Cube" style="width: 220px; height: 250px;">
+            </div>
+            <div class="clear-float"></div>
+        </article>
+        <article id="hobbies">
+            <h2><em>Hobbies</em></h2>
+            <img src="images/rubick.jpg" alt="Image of a Rubick Cube" style="width: 220px; height: 250px;">
+            <div class="right-content">
                 <ul>
                     <li>Authors</li>
                     <ol>
@@ -119,10 +135,13 @@
                         <li>Skiing</li>
                     </ul>
                 </ul>
-            </article>
-        </section>
-        <footer>
-            <p>&copy; 2022 Gabriel Hernandez. All rights reserved.</p>
-        </footer>     
-    </body>
+            </div>
+            <div class="clear-float"></div>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2022 Gabriel Hernandez. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>
