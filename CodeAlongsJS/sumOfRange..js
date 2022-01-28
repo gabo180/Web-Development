@@ -1,0 +1,7 @@
+var testArray = [17, 42, 311, 5, 9, 10, 28, 7, 6];
+
+var sum = 0;
+
+for (var position = 0; position < testArray.length; position++) {
+    sum += testArray[position];
+}

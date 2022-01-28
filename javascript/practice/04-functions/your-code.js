@@ -59,15 +59,13 @@ function max(number1, number2, number3) {
     }
 }
 
+
 // Uncomment the code below to verify your function is working.
 console.log("max =====");
 console.log("max(-1, 0, 1) -> expected: 1, actual: %s", max(-1, 0, 1));
 console.log("max(11, 2, 1) -> expected: 11, actual: %s", max(11, 2, 1));
 console.log("max(-15.67, 33.293, 0.51) -> expected: 33.293, actual: %s", max(-15.67, 33.293, 0.51));
 console.log("max(4, 987654321, 0) -> expected: 987654321, actual: %s", max(4, 987654321, 0));
-
-
-
 
 
 
