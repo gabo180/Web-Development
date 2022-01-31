@@ -10,3 +10,4 @@ for (var position = 0; position < testArray.length; position++) {
 }
 
 console.log("The sum of " + testArray + " is: " + sum);
+

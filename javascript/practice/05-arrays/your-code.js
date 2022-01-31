@@ -77,8 +77,9 @@ console.log("expected: Neptune,Uranus,Saturn\nactual: %s", result);
 result = subtractArray([1, 2, 3, 1, 2, 3, 1, 2, 3], [1, 3]);
 console.log("expected: 2,2,2\nactual: %s", result);
 
-
-
+var result = -3;
+result = -result;
+console.log(result)
 /**********************************
  * The Software Guild
  * Copyright (C) 2019 Wiley edu LLC - All Rights Reserved
